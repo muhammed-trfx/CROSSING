@@ -1119,7 +1119,7 @@ catlo(group1)
 `
 catlo(storage1)
       break
-      case 'MAKERMENU':
+      case 'makermenu':
       extra1 = `
 ▢ 𝑴𝑨𝑲𝑬𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
@@ -1178,7 +1178,7 @@ catlo(storage1)
 `
 catlo(storage1)
       break
-      case 'MAKERMENU2':
+      case 'makermenu2':
       extra1 = `
 ☘︎ 𝑴𝑨𝑲𝑬𝑹 - 𝑴 𝑬 𝑵 𝑼 - 𝑻𝑾𝑶☘︎ 
 
