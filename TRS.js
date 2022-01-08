@@ -913,13 +913,13 @@ const ftrol = {
             switch(command){
            
             case 'owner':
-            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`91919961050829@s.whatsapp.net`,`91919961050829@s.whatsapp.net`]
+            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`918157849715@s.whatsapp.net`,`8157849715@s.whatsapp.net`]
             let ini_list = []
 		    for (let i of ini_ownerNumber) {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
 			 "displayName": 'Owner Muhammed',
-			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Taurus;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Taurus\nEND:VCARD`
+			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Taurus;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ẉa.me/⃝!ᴍ.ꪶ͢Tꫝᴜʀᴜs✿Sᴇʀꫂ⁩\nEND:VCARD`
 			  })
 			  }
 			 hehe = await bosco.sendMessage(from, {
@@ -946,9 +946,9 @@ const ftrol = {
  ☘︎ Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
- menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'MENU'},type:1},
+ menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'⋮☰ MENU'},type:1},
  {buttonId:`${prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1},
- {buttonId:`${prefix}maker`,buttonText:{displayText:'MAKER'},type:1}
+ {buttonId:`${prefix}maker`,buttonText:{displayText:'⋮☰ MAKER'},type:1}
 ]
  menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
@@ -973,8 +973,8 @@ const ftrol = {
 ᴛᴀᴜʀᴜs
  `
  makerbutton = [{buttonId:`${prefix}owner`,buttonText:{displayText:'BOT OWNED BY'},type:1},
- {buttonId:`${prefix}makermenu2`,buttonText:{displayText:'MAKERMENU2'},type:1},
- {buttonId:`${prefix}makermenu`,buttonText:{displayText:'MAKERMENU'},type:1}
+ {buttonId:`${prefix}txtit`,buttonText:{displayText:'⋮☰ TXTIT'},type:1},
+ {buttonId:`${prefix}makermenu`,buttonText:{displayText:'⋮☰ MAKERMENU'},type:1}
 ]
  makermessage = { contentText: ` `, footerText: `${hehe}`, buttons: makerbutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, makermessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
@@ -1120,122 +1120,220 @@ catlo(group1)
 catlo(storage1)
       break
       case 'makermenu':
-      extra1 = `
+      maker1 = `
 ▢ 𝑴𝑨𝑲𝑬𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
 
-☘︎${prefix}shadow
-☘︎${prefix}cup
-☘︎${prefix}cup1
-☘︎${prefix}romance
-☘︎${prefix}smoke
-☘︎${prefix}burnpaper
-☘︎${prefix}lovemessage
-☘︎${prefix}undergrass
-☘︎${prefix}love
-☘︎${prefix}coffe
-☘︎${prefix}woodheart
-☘︎${prefix}woodenboard
-☘︎${prefix}summer3d
-☘︎${prefix}wolfmetal
-☘︎${prefix}nature3d
-☘︎${prefix}underwater
-☘︎${prefix}golderrose
-☘︎${prefix}summernature
-☘︎${prefix}letterleaves
-☘︎${prefix}glowingneon
-☘︎${prefix}fallleaves
-☘︎${prefix}flamming
-☘︎${prefix}harrypotter
-☘︎${prefix}carvedwood
-☘︎${prefix}tiktok
-☘︎${prefix}arcade8bit
-☘︎${prefix}galaxywallpaper
-☘︎${prefix}lighttext
-☘︎${prefix}beautifulflower
-☘︎${prefix}puppycute
-☘︎${prefix}royaltext
-☘︎${prefix}heartshaped
-☘︎${prefix}birthdaycake
-☘︎${prefix}glossychrome
-☘︎${prefix}greenbush
-☘︎${prefix}metallogo
-☘︎${prefix}noeltext
-☘︎${prefix}glittergold
-☘︎${prefix}textcake
-☘︎${prefix}starsnight
-☘︎${prefix}wooden3d
-☘︎${prefix}textbyname
-☘︎${prefix}writegalacy
-☘︎${prefix}galaxybat
-☘︎${prefix}snow3d
-☘︎${prefix}birthdayday
-☘︎${prefix}goldplaybutton
-☘︎${prefix}silverplaybutton
-☘︎${prefix}freefire
+☘︎ ${prefix}shadow
+
+☘︎ ${prefix}cup
+
+☘︎ ${prefix}cup1
+
+☘︎ ${prefix}romance
+
+☘︎ ${prefix}smoke
+
+☘︎ ${prefix}burnpaper
+
+☘︎ ${prefix}lovemessage
+
+☘︎ ${prefix}undergrass
+
+☘︎ ${prefix}love
+
+☘︎ ${prefix}coffe
+
+☘︎ ${prefix}woodheart
+
+☘︎ ${prefix}woodenboard
+
+☘︎ ${prefix}summer3d
+
+☘︎ ${prefix}wolfmetal
+
+☘︎ ${prefix}nature3d
+
+☘︎ ${prefix}underwater
+
+☘︎ ${prefix}golderrose
+
+☘︎ ${prefix}summernature
+
+☘︎ ${prefix}letterleaves
+
+☘︎ ${prefix}glowingneon
+
+☘︎ ${prefix}fallleaves
+
+☘︎ ${prefix}flamming
+
+☘︎ ${prefix}harrypotter
+
+☘︎ ${prefix}carvedwood
+
+☘︎ ${prefix}tiktok
+
+☘︎ ${prefix}arcade8bit
+
+☘︎ ${prefix}galaxywallpaper
+
+☘︎ ${prefix}lighttext
+
+☘︎ ${prefix}beautifulflower
+
+☘︎ ${prefix}puppycute
+
+☘︎ ${prefix}royaltext
+
+☘︎ ${prefix}heartshaped
+
+☘︎ ${prefix}birthdaycake
+
+☘︎ ${prefix}glossychrome
+
+☘︎ ${prefix}greenbush
+
+☘︎ ${prefix}metallogo
+
+☘︎ ${prefix}noeltext
+
+☘︎ ${prefix}glittergold
+
+☘︎ ${prefix}textcake
+
+☘︎ ${prefix}starsnight
+
+☘︎ ${prefix}wooden3d
+
+☘︎ ${prefix}textbyname
+
+☘︎ ${prefix}writegalacy
+
+☘︎ ${prefix}galaxybat
+
+☘︎ ${prefix}snow3d
+
+☘︎ ${prefix}birthdayday
+
+☘︎ ${prefix}goldplaybutton
+
+☘︎ ${prefix}silverplaybutton
+
+☘︎ ${prefix}freefire
 
 ᴍᴀᴋᴇʀ ᴍᴇɴᴜ ᴀᴅᴅᴇᴅ ʙʏ ᴍᴜʜᴀᴍᴍᴇᴅ
 `
-catlo(storage1)
+catlo(maker1)
       break
-      case 'makermenu2':
-      extra1 = `
+      case 'txtit':
+      txt1 = `
 ☘︎ 𝑴𝑨𝑲𝑬𝑹 - 𝑴 𝑬 𝑵 𝑼 - 𝑻𝑾𝑶☘︎ 
 
 
-☘︎${prefix}blackpink
-☘︎${prefix}neon
-☘︎${prefix}greenneon
-☘︎${prefix}advanceglow
-☘︎${prefix}battlefield4
-☘︎${prefix}pubg
-☘︎${prefix}wetglass
-☘︎${prefix}multicolor3d
-☘︎${prefix}watercolor
-☘︎${prefix}luxurygold
-☘︎${prefix}galaxystyle
-☘︎${prefix}hologram3d
-☘︎${prefix}greenneon
-☘︎${prefix}futureneon
-☘︎${prefix}sandwriting
-☘︎${prefix}sandsummer
-☘︎${prefix}sandengraved
-☘︎${prefix}metaldark
-☘︎${prefix}neonlight
-☘︎${prefix}holographic
-☘︎${prefix}text1917
-☘︎${prefix}minion
-☘︎${prefix}deluxesilver
-☘︎${prefix}newyearcard
-☘︎${prefix}bloodfrosted
-☘︎${prefix}halloween
-☘︎${prefix}jokerlogo
-☘︎${prefix}fireworksparkle
-☘︎${prefix}natureleaves
-☘︎${prefix}bokeh
-☘︎${prefix}toxic
-☘︎${prefix}strawberry
-☘︎${prefix}box3d
-☘︎${prefix}roadwarning
-☘︎${prefix}breakwall
-☘︎${prefix}icecold
-☘︎${prefix}luxury
-☘︎${prefix}cloud
-☘︎${prefix}summersand
-☘︎${prefix}horrorblood
-☘︎${prefix}thunder
-☘︎${prefix}pornhub
-☘︎${prefix}glitch
-☘︎${prefix}avenger
-☘︎${prefix}space
-☘︎${prefix}ninjalogo
-☘︎${prefix}marvelstudio
-☘︎${prefix}lionlogo
-☘︎${prefix}wolflogo
-☘︎${prefix}steel3d
-☘︎${prefix}wallgravity
+☘︎ ${prefix}blackpink
+
+☘︎ ${prefix}neon
+
+☘︎ ${prefix}greenneon
+
+☘︎ ${prefix}advanceglow
+
+☘︎ ${prefix}battlefield4
+
+☘︎ ${prefix}pubg
+
+☘︎ ${prefix}wetglass
+
+☘︎ ${prefix}multicolor3d
+
+☘︎ ${prefix}watercolor
+
+☘︎ ${prefix}luxurygold
+
+☘︎ ${prefix}galaxystyle
+
+☘︎ ${prefix}hologram3d
+
+☘︎ ${prefix}greenneon
+
+☘︎ ${prefix}futureneon
+
+☘︎ ${prefix}sandwriting
+
+☘︎ ${prefix}sandsummer
+
+☘︎ ${prefix}sandengraved
+
+☘︎ ${prefix}metaldark
+
+☘︎ ${prefix}neonlight
+
+☘︎ ${prefix}holographic
+
+☘︎ ${prefix}text1917
+
+☘︎ ${prefix}minion
+
+☘︎ ${prefix}deluxesilver
+
+☘︎ ${prefix}newyearcard
+
+☘︎ ${prefix}bloodfrosted
+
+☘︎ ${prefix}halloween
+
+☘︎ ${prefix}jokerlogo
+
+☘︎ ${prefix}fireworksparkle
+
+☘︎ ${prefix}natureleaves
+
+☘︎ ${prefix}bokeh
+
+☘︎ ${prefix}toxic
+
+☘︎ ${prefix}strawberry
+
+☘︎ ${prefix}box3d
+
+☘︎ ${prefix}roadwarning
+
+☘︎ ${prefix}breakwall
+
+☘︎ ${prefix}icecold
+
+☘︎ ${prefix}luxury
+
+☘︎ ${prefix}cloud
+
+☘︎ ${prefix}summersand
+
+☘︎ ${prefix}horrorblood
+
+☘︎ ${prefix}thunder
+
+☘︎ ${prefix}pornhub
+
+☘︎ ${prefix}glitch
+
+☘︎ ${prefix}avenger
+
+☘︎ ${prefix}space
+
+☘︎ ${prefix}ninjalogo
+
+☘︎ ${prefix}marvelstudio
+
+☘︎ ${prefix}lionlogo
+
+☘︎ ${prefix}wolflogo
+
+☘︎ ${prefix}steel3d
+
+☘︎ ${prefix}wallgravity
 `
-catlo(edit1)
+catlo(txt1)
       break
       case 'storagemenu':
         storage1 = `
