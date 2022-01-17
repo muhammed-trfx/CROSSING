@@ -2608,14 +2608,24 @@ teks += `*☘︎ Title : ${get_result[i].title}*
               total = math(`${groups.length}*${privat.length}`)
 teks = `
 *I ᴀᴍ Sᴛɪʟʟ Aʟɪᴠᴇ Bʀᴏ :)*
+
 *Sᴘᴇᴇᴅ :* ${latensie.toFixed(4)} Second
+
 *Rᴀᴍ Usᴀɢᴇ :* ${ram2}
+
 *Bᴀᴛᴛᴇʀʏ :* ${baterai}% ${charger}
+
 *Pʟᴀᴛғᴏʀᴍ :* ${os.platform()}
+
+
 *Uᴘᴛɪᴍᴇ :* ${runtime(process.uptime())}
+
 *Wᴀ ᴠᴇʀsɪᴏɴ :* ${bosco.user.phone.wa_version}
+
 *Os ᴠᴇʀsɪᴏɴ :* ${bosco.user.phone.os_version}
+
 *Dᴇᴠɪᴄᴇ Mᴀɴᴜғᴀᴄᴛᴜʀᴇ :* ${bosco.user.phone.device_manufacturer}
+
 *Dᴇᴠɪᴄᴇ Mᴏᴅᴇʟ :* ${bosco.user.phone.device_model}
 `
     menubutton = [{buttonId:`${prefix}credits`,buttonText:{displayText:'CREDITS'},type:1}
