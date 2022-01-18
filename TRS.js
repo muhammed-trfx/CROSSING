@@ -260,7 +260,7 @@ module.exports = bosco = async (bosco, mek) => {
              bosco.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JCDXgSphA49EHxjPn813IL', "groupName": `Muhammed`, "footerText": "*Taurus*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
+        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JCDXgSphA49EHxjPn813IL', "groupName": `TAURUS`, "footerText": "*Taurus*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
             bosco.relayWAMessage(grup)
         }
         try {
@@ -540,7 +540,7 @@ const ftrol = {
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./media/image/${anjh}.jpg`)
-					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${fake}`, orderTitle: `MADE BY Muhammed`, sellerJid: '0@s.whatsapp.net'}}}})
+					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${fake}`, orderTitle: `MADE BY TAURUS`, sellerJid: '0@s.whatsapp.net'}}}})
 					}
 			}
 			for (let anje of videonye){
@@ -918,7 +918,7 @@ const ftrol = {
 		    for (let i of ini_ownerNumber) {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
-			 "displayName": 'Owner Muhammed',
+			 "displayName": 'OWNER TAURUS',
 			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Taurus;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:ẉa.me/⃝!ᴍ.ꪶ͢Tꫝᴜʀᴜs✿Sᴇʀꫂ⁩\nEND:VCARD`
 			  })
 			  }
@@ -928,7 +928,7 @@ const ftrol = {
 			 }, 'contactsArrayMessage', {quoted:mek})
 		     break
         case 'menu':
-        case 'Muhammed':
+        case 'taurus':
         case 'cmd':
         groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
         privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -946,9 +946,9 @@ const ftrol = {
  ☘︎ Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
- menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'⋮☰ MENU'},type:1},
+ menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'MENU'},type:1},
  {buttonId:`${prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1},
- {buttonId:`${prefix}maker`,buttonText:{displayText:'⋮☰ MAKER'},type:1}
+ {buttonId:`${prefix}maker`,buttonText:{displayText:'MAKER'},type:1}
 ]
  menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
@@ -973,8 +973,8 @@ const ftrol = {
 ᴛᴀᴜʀᴜs
  `
  makerbutton = [{buttonId:`${prefix}owner`,buttonText:{displayText:'BOT OWNED BY'},type:1},
- {buttonId:`${prefix}txtit`,buttonText:{displayText:'⋮☰ TXTIT'},type:1},
- {buttonId:`${prefix}makermenu`,buttonText:{displayText:'⋮☰ MAKERMENU'},type:1}
+ {buttonId:`${prefix}txtit`,buttonText:{displayText:'TXTIT'},type:1},
+ {buttonId:`${prefix}makermenu`,buttonText:{displayText:'MAKERMENU'},type:1}
 ]
  makermessage = { contentText: ` `, footerText: `${hehe}`, buttons: makerbutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, makermessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
@@ -983,7 +983,7 @@ const ftrol = {
         var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['groupmenu','heapUsed','totalmem','725QVrWUs','editmenu','memoryUsage','\x0a\x0a☘︎\x20*Hɪ\x20Bʀᴏ*\x20@','rules','696744qUeXev','https://bit.ly/3sC5w0G','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','ownermenu','downloadmenu','length','\x0a\x0a☘︎\x20*Rᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','CLICK\x20HERE','\x0a\x0a☘︎\x20*Tɪᴍᴇ\x20:*\x20','array','extramenu','80qBMwRf','\x0a\x0a☘︎\x20*Tᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','slot','\x0a\x0a☘︎\x20*Sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a\x0a☘︎\x20*Gʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a☘︎\x20*Pʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':prefix+_0x893b24(0xbb),'description':'','rowId':prefix+_0x893b24(0xbb)},{'title':prefix+_0x893b24(0xcd),'description':'','rowId':prefix+_0x893b24(0xcd)},{'title':prefix+_0x893b24(0xdd),'description':'','rowId':prefix+_0x893b24(0xdd)},{'title':prefix+_0x893b24(0xd1),'description':'','rowId':prefix+_0x893b24(0xd1)},{'title':prefix+'storagemenu','description':'','rowId':prefix+'storagemenu'},{'title':prefix+_0x893b24(0xde),'description':'','rowId':prefix+'downloadmenu'},{'title':prefix+'rules','description':'','rowId':prefix+_0x893b24(0xd4)},{'title':prefix+_0x893b24(0xc5),'description':'','rowId':prefix+'slot'},{'title':prefix+'group','description':'','rowId':prefix+'group'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftrol,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
  break
     
-    case 'Muhammedgroup':
+    case 'muhammedgroup':
      function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/JCDXgSphA49EHxjPn813IL',catlo(groupBosco));
     break
     case 'ownermenu':
@@ -1756,7 +1756,7 @@ break
              hideTag(from, `${q}`)
 }
              break
-       case 'Taurus':
+       case 'taurus':
               if (!q) return
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, Taurus Poli Ahn ${qq} Taurus Killadi Ahnu ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
@@ -2744,7 +2744,7 @@ teks = `
                 media = Buffer.from(response, "base64");
                 bosco.sendMessage(from, media, image, {
                   quoted: mek,
-                  caption: "©Muhammed",
+                  caption: "©TAURUS",
                 });
               })
               .catch((error) => {
@@ -2957,7 +2957,7 @@ bosco.sendMessage(from, `${args.join(' ')}`, MessageType.text, {contextInfo: { f
 //------------------< Sticker Maker >-------------------
 
 case 'attp':
-              if (args.length == 0) return reply(`Example: ${prefix + command} Muhammed`)
+              if (args.length == 0) return reply(`Example: ${prefix + command} TAURUS`)
               buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
               bosco.sendMessage(from, buffer, sticker, { quoted: mek })
               break
@@ -3196,7 +3196,7 @@ case 'emoji':
                if (mek.message.extendedTextMessage === null || mek.message.extendedTextMessage === undefined) {
                linkpp = await bosco.getProfilePicture(from) || "https://telegra.ph/file/40151a65238ba2643152d.jpg"
                buffer = await getBuffer(linkpp)
-               bosco.sendMessage(from, buffer, image, {caption: "©Muhammed", quoted: mek })
+               bosco.sendMessage(from, buffer, image, {caption: "©TAURUS", quoted: mek })
                } else if (mek.message.extendedTextMessage.contextInfo.mentionedJid === null || mek.message.extendedTextMessage.contextInfo.mentionedJid === undefined) {
                mberr = mek.message.extendedTextMessage.contextInfo.participant
                linkpp = await bosco.getProfilePicture(mberr) || "https://telegra.ph/file/40151a65238ba2643152d.jpg"
@@ -3559,9 +3559,9 @@ if (Number(oi2) >= 50) return reply('*Most!*')
                 reply('*The bot has been successfully muted in this chat*')
                 break
      case 'tts':
-					if (args.length < 1) return bosco.sendMessage(from, `Where's the language cod ? contoh : ${prefix}tts ml Muhammed uyir`, text, { quoted: mek })
+					if (args.length < 1) return bosco.sendMessage(from, `Where's the language cod ? contoh : ${prefix}tts ml TAURUS uyir`, text, { quoted: mek })
 				   const gtts = require('./lib/gtts')(args[0])
-					if (args.length < 2) return bosco.sendMessage(from, `Where's the Texk bro? contoh : ${prefix}tts ml Muhammed uyir`, text, { quoted: mek })
+					if (args.length < 2) return bosco.sendMessage(from, `Where's the Texk bro? contoh : ${prefix}tts ml TAURUS uyir`, text, { quoted: mek })
 					var bby = body.slice(8)
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
